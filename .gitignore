@@ -1,24 +1,95 @@
-# Logs
-logs
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+local_settings.py
+db.sqlite3
+media/
 
-node_modules
-dist
-dist-ssr
-*.local
+# Flask
+instance/
+.webassets-cache
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Environment Variables
+.env
+.env.*
+*.env
+
+# -----------------------------
+# Node / React
+# # -----------------------------
+# node_modules/
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# package-lock.json
+# pnpm-lock.yaml
+
+# Build folders
+build/
+dist/
+.next/
+out/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+.history/
+
+# -----------------------------
+# OS Files
+# -----------------------------
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# -----------------------------
+# Database
+# -----------------------------
+*.sqlite3
+*.db
+
+# -----------------------------
+# Testing
+# -----------------------------
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.swp
+*.swo
+.idea/
+.node_modules
+dist
+.env
